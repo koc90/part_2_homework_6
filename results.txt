@@ -1,0 +1,285 @@
+    query_0.sql result:
+(1, 'Jackie Robbins')
+(2, 'Mary Gallegos')
+(3, 'Ashley Franklin')
+(4, 'Christopher Deleon')
+(5, 'Sonya King')
+(6, 'Mrs. Jill Brown')
+(7, 'Steven Evans')
+(8, 'Angela Rios')
+(9, 'Amber Singh')
+(10, 'Brittany Henson')
+(11, 'Timothy Mendoza')
+(12, 'Cynthia Sharp')
+(13, 'Monique Lane')
+(14, 'David Stout')
+(15, 'Lori Morrison')
+(16, 'Christopher Davis Jr.')
+(17, 'Nathan Barr')
+(18, 'Lisa May')
+(19, 'Jamie Gregory')
+(20, 'Toni Brown')
+(21, 'Karla Lloyd')
+(22, 'Kayla Larson')
+(23, 'Lisa Hickman')
+(24, 'Melissa Morris')
+(25, 'Melanie Flowers')
+(26, 'Denise Waller')
+(27, 'Mr. Cody Fleming')
+(28, 'Curtis Johnson')
+(29, 'Heather Davis')
+(30, 'Don Parks')
+(31, 'Hunter Mcbride')
+(32, 'Tracy Garcia')
+(33, 'Jason Diaz')
+(34, 'Erik Williams')
+(35, 'Elizabeth Huerta')
+(36, 'Jake Burgess')
+(37, 'Christopher King')
+(38, 'Craig Sanchez')
+(39, 'Mark Baker')
+(40, 'Victoria Lowe')
+(41, 'Tracy Murillo')
+(42, 'Dr. George Johnston')
+(43, 'Christopher Schmidt')
+(44, 'Melanie Cantrell')
+(45, 'Eric Johnson')
+(46, 'Edward Brewer')
+(47, 'Laura Dorsey')
+(48, 'Katie Johnson')
+(49, 'Charles Powers')
+(50, 'Todd Williams')
+
+Result after processing:
+
+
+
+    query_1.sql result:
+('Jackie Robbins', Decimal('4.2352941176470588'))
+('Lori Morrison', Decimal('4.1388888888888889'))
+('Mary Gallegos', Decimal('4.1250000000000000'))
+('Dr. George Johnston', Decimal('4.0937500000000000'))
+('Brittany Henson', Decimal('4.0625000000000000'))
+
+Result after processing:
+Jackie Robbins, average: 4.24
+Lori Morrison, average: 4.14
+Mary Gallegos, average: 4.12
+Dr. George Johnston, average: 4.09
+Brittany Henson, average: 4.06
+
+
+
+    query_2.sql result:
+('Brittany Henson', Decimal('5.0000000000000000'))
+
+Result after processing:
+Brittany Henson, average: 5.00
+
+
+
+    query_3.sql result:
+('A', Decimal('4.0595238095238095'))
+('B', Decimal('3.7800000000000000'))
+('C', Decimal('3.7000000000000000'))
+
+Result after processing:
+A, average: 4.06
+B, average: 3.78
+C, average: 3.70
+
+
+
+    query_4.sql result:
+('A', Decimal('3.6732026143790850'))
+('B', Decimal('3.6900958466453674'))
+('C', Decimal('3.7982456140350877'))
+
+Result after processing:
+A, average: 3.67
+B, average: 3.69
+C, average: 3.80
+
+
+
+    query_5.sql result:
+('Mathematics', 'Ashley Cunningham')
+('Numerical Methods', 'Ashley Cunningham')
+
+Result after processing:
+lecturer:
+     Ashley Cunningham
+subjects: 
+     Mathematics
+     Numerical Methods
+
+
+
+    query_6.sql result:
+('C', 'Ashley Franklin')
+('C', 'Mrs. Jill Brown')
+('C', 'Amber Singh')
+('C', 'Cynthia Sharp')
+('C', 'Lori Morrison')
+('C', 'Lisa May')
+('C', 'Karla Lloyd')
+('C', 'Melissa Morris')
+('C', 'Mr. Cody Fleming')
+('C', 'Don Parks')
+('C', 'Jason Diaz')
+('C', 'Jake Burgess')
+('C', 'Mark Baker')
+('C', 'Dr. George Johnston')
+('C', 'Eric Johnson')
+('C', 'Katie Johnson')
+
+Result after processing:
+group:
+     C
+students: 
+     Ashley Franklin
+     Mrs. Jill Brown
+     Amber Singh
+     Cynthia Sharp
+     Lori Morrison
+     Lisa May
+     Karla Lloyd
+     Melissa Morris
+     Mr. Cody Fleming
+     Don Parks
+     Jason Diaz
+     Jake Burgess
+     Mark Baker
+     Dr. George Johnston
+     Eric Johnson
+     Katie Johnson
+
+
+
+    query_7.sql result:
+('Chemistry', 'B', 'Mary Gallegos', Decimal('3.5'))
+('Chemistry', 'B', 'Mary Gallegos', Decimal('4.5'))
+('Chemistry', 'B', 'Mary Gallegos', Decimal('3.5'))
+('Chemistry', 'B', 'Mary Gallegos', Decimal('3.5'))
+('Chemistry', 'B', 'Sonya King', Decimal('4.0'))
+('Chemistry', 'B', 'Sonya King', Decimal('3.0'))
+('Chemistry', 'B', 'Sonya King', Decimal('4.0'))
+('Chemistry', 'B', 'Angela Rios', Decimal('3.0'))
+('Chemistry', 'B', 'Angela Rios', Decimal('3.5'))
+('Chemistry', 'B', 'Angela Rios', Decimal('3.5'))
+('Chemistry', 'B', 'Timothy Mendoza', Decimal('5.0'))
+('Chemistry', 'B', 'Timothy Mendoza', Decimal('3.5'))
+('Chemistry', 'B', 'Timothy Mendoza', Decimal('4.5'))
+('Chemistry', 'B', 'David Stout', Decimal('4.5'))
+('Chemistry', 'B', 'Nathan Barr', Decimal('3.0'))
+('Chemistry', 'B', 'Nathan Barr', Decimal('4.5'))
+('Chemistry', 'B', 'Toni Brown', Decimal('4.5'))
+('Chemistry', 'B', 'Toni Brown', Decimal('4.0'))
+('Chemistry', 'B', 'Toni Brown', Decimal('5.0'))
+('Chemistry', 'B', 'Lisa Hickman', Decimal('4.0'))
+('Chemistry', 'B', 'Denise Waller', Decimal('3.5'))
+('Chemistry', 'B', 'Denise Waller', Decimal('4.0'))
+('Chemistry', 'B', 'Denise Waller', Decimal('5.0'))
+('Chemistry', 'B', 'Denise Waller', Decimal('2.0'))
+('Chemistry', 'B', 'Denise Waller', Decimal('5.0'))
+('Chemistry', 'B', 'Heather Davis', Decimal('2.0'))
+('Chemistry', 'B', 'Tracy Garcia', Decimal('4.5'))
+('Chemistry', 'B', 'Tracy Garcia', Decimal('3.0'))
+('Chemistry', 'B', 'Elizabeth Huerta', Decimal('4.5'))
+('Chemistry', 'B', 'Elizabeth Huerta', Decimal('5.0'))
+('Chemistry', 'B', 'Craig Sanchez', Decimal('5.0'))
+('Chemistry', 'B', 'Tracy Murillo', Decimal('3.0'))
+('Chemistry', 'B', 'Melanie Cantrell', Decimal('2.0'))
+('Chemistry', 'B', 'Melanie Cantrell', Decimal('3.5'))
+('Chemistry', 'B', 'Laura Dorsey', Decimal('3.0'))
+('Chemistry', 'B', 'Laura Dorsey', Decimal('4.0'))
+('Chemistry', 'B', 'Laura Dorsey', Decimal('3.0'))
+('Chemistry', 'B', 'Todd Williams', Decimal('4.0'))
+('Chemistry', 'B', 'Todd Williams', Decimal('5.0'))
+
+Result after processing:
+subject: Chemistry
+group: B
+
+    student: Mary Gallegos
+    marks: 3.5, 4.5, 3.5, 3.5, 
+    student: Sonya King
+    marks: 4.0, 3.0, 4.0, 
+    student: Angela Rios
+    marks: 3.0, 3.5, 3.5, 
+    student: Timothy Mendoza
+    marks: 5.0, 3.5, 4.5, 
+    student: David Stout
+    marks: 4.5, 
+    student: Nathan Barr
+    marks: 3.0, 4.5, 
+    student: Toni Brown
+    marks: 4.5, 4.0, 5.0, 
+    student: Lisa Hickman
+    marks: 4.0, 
+    student: Denise Waller
+    marks: 3.5, 4.0, 5.0, 2.0, 5.0, 
+    student: Heather Davis
+    marks: 2.0, 
+    student: Tracy Garcia
+    marks: 4.5, 3.0, 
+    student: Elizabeth Huerta
+    marks: 4.5, 5.0, 
+    student: Craig Sanchez
+    marks: 5.0, 
+    student: Tracy Murillo
+    marks: 3.0, 
+    student: Melanie Cantrell
+    marks: 2.0, 3.5, 
+    student: Laura Dorsey
+    marks: 3.0, 4.0, 3.0, 
+    student: Todd Williams
+    marks: 4.0, 5.0, 
+
+
+
+    query_8.sql result:
+('Jamie Shaw', 'Mechanics', Decimal('3.7480916030534351'))
+('Jamie Shaw', 'Physics', Decimal('3.7517730496453901'))
+
+Result after processing:
+Lecturer: Jamie Shaw
+Averages of the grades given:
+    Mechanics: 3.75
+    Physics: 3.75
+
+
+
+    query_9.sql result:
+('Jackie Robbins', 'Descriptive Geomery')
+('Jackie Robbins', 'Information Technology')
+('Jackie Robbins', 'Mathematics')
+('Jackie Robbins', 'Mechanics')
+('Jackie Robbins', 'Numerical Methods')
+('Jackie Robbins', 'Physics')
+
+Result after processing:
+Student: Jackie Robbins
+Courses attended:
+    Descriptive Geomery
+    Information Technology
+    Mathematics
+    Mechanics
+    Numerical Methods
+    Physics
+
+
+
+    query_10.sql result:
+('Ashley Cunningham', 'Timothy Mendoza', 'Mathematics')
+('Ashley Cunningham', 'Timothy Mendoza', 'Numerical Methods')
+
+Result after processing:
+Student: Timothy Mendoza
+Lecturer: Ashley Cunningham
+Common subjects:
+    Mathematics
+    Numerical Methods
+
+
+

@@ -1,0 +1,2 @@
+-- query_12.sql
+-- na potem

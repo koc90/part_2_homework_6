@@ -1,0 +1,3 @@
+from inserts_generator import generate_all_insert_files
+
+generate_all_insert_files()
